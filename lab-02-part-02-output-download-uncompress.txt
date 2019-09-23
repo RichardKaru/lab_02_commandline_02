@@ -18,7 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+hello
 
 
 ==========
@@ -28,7 +28,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 ==========
@@ -38,7 +38,7 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+>
 
 
 ==========
@@ -56,7 +56,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
+good mornin'
 
 
 ==========
@@ -66,7 +66,8 @@ $ echo *
 
 What happens?
 ----------
-
+v314-ent-015:~ student$ echo *
+AMALogger20190916.log AMALogger20190918.log Adlm Adobe Applications Creative Cloud Files Desktop Documents Downloads Library MPLABXProjects Movies Music Pictures Public QLData Things ipe.properties isus mtec1002 pymel.log xgen
 
 
 ==========
@@ -74,7 +75,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -87,6 +88,12 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 
@@ -97,7 +104,8 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+v314-ent-015:~ student$ curl www.google.com
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head>
 
 
 ==========
@@ -105,7 +113,7 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
-
+curl -o google.html www.google.com
 
 
 ==========
@@ -113,15 +121,17 @@ Write the command you used below.  Also copy and paste the output below.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
-
+pwd
+v314-ent-015:~ student$ cd desktop
+v314-ent-015:desktop student$ pwd
+/Users/student/desktop
 
 ==========
 12. If you're not in your home directory, change to it (use the shortcut).
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+cd ~
 
 
 ==========
@@ -137,15 +147,19 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
+curl -o mtec1002-lab-02.zip http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
 
-
+v314-ent-015:desktop student$ curl -o mtec1002-lab-02.zip http://foureyes.github.io/mtec1002-spring2014/labs/02/mtec1002-lab-02.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   162  100   162    0     0   4153      0 --:--:-- --:--:-- --:--:--  4153
 
 ==========
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
 
 Write down the command that you used to uncompress the file.
 ----------
-
+unzip mtec1002-lab-02.zip
 
 
 ==========
@@ -153,7 +167,7 @@ Write down the command that you used to uncompress the file.
 
 Copy and paste the output below.
 ----------
-
+cd mtec1002-lab-02
 
 
 ==========
@@ -176,7 +190,7 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+hello.txt
 
 
 ==========
